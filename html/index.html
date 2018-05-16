@@ -8,10 +8,49 @@
 </head>
 <body id="fundo">
 	<form name="calculadora_sistemas">
-	<input type="text" name="visor2">
+
 
 		<link rel="stylesheet" type="text/css" href="css/externo.css">
-		<script type="text/javascript" src="js/calculadora.js"></script>
+		<script type="text/javascript" src="js/calculadora.js">
+			
+			var num, cont=0,oper,val1,val2, result;
+
+
+
+function numero(num){
+	num = document.getElementsByName(value); 
+	alert('chegou aqui');
+
+
+		while(cont == 1){
+			val2 = document.calculadora_sistemas.visor.value;
+			calcula();
+		}
+
+
+		val1 = document.calculadora_sistemas.visor.value;
+		
+}
+function operacao(){
+	oper = document.calculadora_sistemas.visor.value; 	
+	cont =1;
+
+}
+function calcula(){
+	switch(oper){
+
+		case x: result = val1 * val2;
+				String.result.format;
+
+		case +: 
+
+		case /: 
+
+		case -:
+	}
+}
+
+		</script>
 		
 
 	<table id="tamanho">
@@ -19,23 +58,23 @@
 			
 			<input style="position: absolute; top: 230px; left: 610px; width: 308px; height: 70px; background-color: black; border-color: black;color: white; font-size: 40px;" type="text" name="visor">
 			<td id="c" style="padding-top: 300px;"><input id="cd" type="reset" name="limpar" value="C" onclick="reset()"></td> 
-			<td><input id="por" style="position: relative; top: 150px;" type="button" name="porcentagem" value="%"></td>
-			<td><input id="div" style="position: relative; top: 150px;" type="button" name="dividir" value="÷"></td>
-			<td><input id="x" style="position: relative; top: 150px;" type="button" name="multiplicar" value="X" onclick="multiplic();"></td>
+			<td><input id="por" style="position: relative; top: 150px;" type="button" name="porcentagem" value="%"onclick="operacao(value);"></td>
+			<td><input id="div" style="position: relative; top: 150px;" type="button" name="dividir" value="÷"onclick="operacao(value);"></td>
+			<td><input id="x" style="position: relative; top: 150px;" type="button" name="multiplicar" value="X" onclick="operacao(value);"></td>
 		</tr>
 		<tr>
 			
 			<td id="sete"><input id="hov" type="button" name="num7" value="7" onclick="numero(value);"></td>
-			<td><input id="hov" type="button" name="numero" value="8" onclick="numero(value)"></td>
+			<td><input id="hov" type="button" name="numero" value="8" .click(value);></td>
 			<td><input id="hov" type="button" name="numero" value="9" onclick="numero(value)"></td>
-			<td><input id="menos" type="button" name="numero" value="-"></td>
+			<td><input id="menos" type="button" name="numero" value="-"onclick="operacao(value);"></td>
 		</tr>
 		<tr>
 			
 			<td id="quatro"><input id="hov" type="button" name="numero" value="4" onclick="numero(value)"></td>
 			<td><input id="hov" type="button" name="numero" value="5" onclick="numero(value)"></td>
 			<td><input id="hov" type="button" name="numero" value="6" onclick="numero(value)"></td>	
-			<td><input id="mais" type="button" name="numero" value="+"></td>
+			<td><input id="mais" type="button" name="numero" value="+"onclick="operacao(value);"></td>
 
 		</tr>
 		<tr>

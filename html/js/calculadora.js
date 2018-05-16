@@ -1,40 +1,42 @@
 
-var num, cont=0,oper;
+var num, cont=0,oper,val1,val2, result;
+
 
 
 function numero(num){
-	
-	num = value;
-	document.calculadora_sistemas.num7.value = num;
+	num = document.getElementsByName(value); 
+	alert('chegou aqui');
+
+
+		while(cont == 1){
+			val2 = document.calculadora_sistemas.visor.value;
+			calcula();
+		}
+
+
+		val1 = document.calculadora_sistemas.visor.value;
+		
+}
+function operacao(){
+	oper = document.calculadora_sistemas.visor.value; 	
+	cont =1;
 
 }
-function numero(){
+function calcula(){
+	switch(oper){
 
+		case x: result = val1 * val2;
+				return result;
 
-for(cont =0;cont<num[];cont ++){
+		case +: 
 
-	if(document.calculadora_sistemas.visor.value == x){
+		case /: 
 
-		oper = document.calculadora_sistemas.visor.value;
+		case -:
 	}
-	else if (document.calculadora_sistemas.visor.value == +){
-
-	}
-	else if (document.calculadora_sistemas.visor.value == -) {
-
-	}
-	else if(document.calculadora_sistemas.visor.value == ){
-
-
-	}
-	else{
-		num[cont] = document.calculadora_sistemas.visor.value;
-	}
-	
-
 }
 
-}
+
 
 
 
