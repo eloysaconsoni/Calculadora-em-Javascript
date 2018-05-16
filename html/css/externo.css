@@ -1,5 +1,5 @@
 #fundo {
-	background-color: 		#40E0D0     ;	
+	background-color:#40E0D0;	
 }
 
 #tamanho input{
@@ -77,7 +77,7 @@
 	border-top-color: #FFA500;
 	border-left-color: #FFA500; 	
 	background-color: #FF8C00;
-	color: white;
+	color: pink;
 }
 
 #igualinput:hover{
