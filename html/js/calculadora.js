@@ -19,7 +19,7 @@ function numero(num){
 }
 function operacao(){
 	oper = document.calculadora_sistemas.visor.value; 	
-	cont =1;
+	cont = 1;
 
 }
 function calcula(){
@@ -31,6 +31,8 @@ function calcula(){
 		case +: 
 
 		case /: 
+
+			
 
 		case -:
 	}

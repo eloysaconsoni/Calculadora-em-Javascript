@@ -6,51 +6,13 @@
 	<link rel="shortcut icon" href="Imagens\icon.png"/>
 
 </head>
+<form name="calculadora_sistemas">
 <body id="fundo">
-	<form name="calculadora_sistemas">
+	
 
 
 		<link rel="stylesheet" type="text/css" href="css/externo.css">
-		<script type="text/javascript" src="js/calculadora.js">
-			
-			var num, cont=0,oper,val1,val2, result;
-
-
-
-function numero(num){
-	num = document.getElementsByName(value); 
-	alert('chegou aqui');
-
-
-		while(cont == 1){
-			val2 = document.calculadora_sistemas.visor.value;
-			calcula();
-		}
-
-
-		val1 = document.calculadora_sistemas.visor.value;
-		
-}
-function operacao(){
-	oper = document.calculadora_sistemas.visor.value; 	
-	cont =1;
-
-}
-function calcula(){
-	switch(oper){
-
-		case x: result = val1 * val2;
-				String.result.format;
-
-		case +: 
-
-		case /: 
-
-		case -:
-	}
-}
-
-		</script>
+		<script type="text/javascript" src="js/calculadora.js"></script> 
 		
 
 	<table id="tamanho">
@@ -65,7 +27,7 @@ function calcula(){
 		<tr>
 			
 			<td id="sete"><input id="hov" type="button" name="num7" value="7" onclick="numero(value);"></td>
-			<td><input id="hov" type="button" name="numero" value="8" .click(value);></td>
+			<td><input id="hov" type="button" name="numero" value="8" .onclick(value);></td>
 			<td><input id="hov" type="button" name="numero" value="9" onclick="numero(value)"></td>
 			<td><input id="menos" type="button" name="numero" value="-"onclick="operacao(value);"></td>
 		</tr>
