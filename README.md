@@ -14,4 +14,4 @@
 #### Eloysa Consoni RA: 00192801  @eloysaconsoni
 #### Jorge Augusto  RA: 00193967	 @JorgeAugustoDeOliveiraAguirar
 #### Cleiton Passareli RA: 00193755  @Passareli
-#### Washington Benevente RA: 00195260  @oHollywood	
+#### Washington Benevente RA: 00195260  @washingtonbene
